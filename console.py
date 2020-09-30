@@ -15,9 +15,9 @@ author_repository.save(author2)
 
 author_repository.select_all()
 
-book1 = Book("Oliver Twist")
+book1 = Book("Oliver Twist", author1)
 book_repository.save(book1)
-book2 = Book("Les Miserables")
-book_repository.save(book2)
+# book2 = Book("Les Miserables", author2)
+# book_repository.save(book2)
 
 pdb.set_trace()
